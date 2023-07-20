@@ -2,7 +2,7 @@ import React from 'react'
 import { useGLobalContext } from './context';
 
 const Story = () => {
-    const {hits, isLoading } = useGLobalContext()  
+    const {hits, isLoading} = useGLobalContext()  
     if(isLoading) {
         return (
             <>
@@ -24,7 +24,7 @@ const Story = () => {
 
             <div className="card-btn">
                 <a href='{url}' >
-                    Read mOre
+                    Read more
                 </a>
                 <a href='#'>REmove</a>
             </div>
